@@ -1,0 +1,27 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "学習用リポジトリ",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryosuke-horie/study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryosuke-horie/study/issues"
+  },
+  "homepage": "https://github.com/ryosuke-horie/study#readme",
+  "dependencies": {
+    "@notion-md-converter/core": "^0.7.3",
+    "@notion-md-converter/zenn": "^0.7.3",
+    "@notionhq/client": "^2.3.0",
+    "dotenv": "^16.4.7"
+  }
+}
