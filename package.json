@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryosuke-horie/study.git"
@@ -19,6 +20,8 @@
   "homepage": "https://github.com/ryosuke-horie/study#readme",
   "dependencies": {
     "@notion-md-converter/core": "^0.7.3",
-    "@notionhq/client": "^2.3.0"
+    "@notion-md-converter/zenn": "^0.7.3",
+    "@notionhq/client": "^2.3.0",
+    "dotenv": "^16.4.7"
   }
 }
