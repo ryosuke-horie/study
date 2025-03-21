@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore"
+      prefix-development: "chore"
+      include: "scope"
+    groups:
+      notion-markdown:
+        patterns:
+          - "@notion-md-converter/core"
+          - "@notion-md-converter/zenn"
+          - "@notionhq/client"
+
+      dev-deps:
+        patterns:
+          - "dotenv"
