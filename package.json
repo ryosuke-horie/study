@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ryosuke-horie/study/issues"
   },
-  "homepage": "https://github.com/ryosuke-horie/study#readme"
+  "homepage": "https://github.com/ryosuke-horie/study#readme",
+  "dependencies": {
+    "@notion-md-converter/core": "^0.7.3",
+    "@notionhq/client": "^2.3.0"
+  }
 }
