@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/ryosuke-horie/study#readme",
   "dependencies": {
-    "@notion-md-converter/core": "^0.9.0",
-    "@notion-md-converter/zenn": "^0.9.0",
-    "@notionhq/client": "^2.3.0",
+    "@notion-md-converter/core": "^0.12.1",
+    "@notion-md-converter/zenn": "^0.12.1",
+    "@notionhq/client": "^3.1.3",
     "dotenv": "^16.5.0"
   }
 }
